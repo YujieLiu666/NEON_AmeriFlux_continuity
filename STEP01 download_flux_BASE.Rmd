@@ -1,0 +1,89 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-07-07"
+---
+
+# packages and working directory
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(amerifluxr)
+library(pander)
+library(REddyProc)
+library(lubridate)
+library(tidyverse)
+library(bigleaf)
+library(data.table)
+project_dir <- "working_directory"
+output_dir <- paste0(project_dir ,"BART_AmeriFlux/")
+data_dir <- output_dir
+setwd(project_dir)
+```
+
+# download data
+```{r cars}
+setwd(data_dir)
+library(amerifluxr)
+floc<- amf_download_base(
+  user_id = "xxx",
+  user_email = "xxx@gmail.com",
+  site_id = "US-Bar",
+  data_product = "BASE-BADM",
+  data_policy = "CCBY4.0",
+  agree_policy = TRUE,
+  intended_use = "other",
+  intended_use_text = "amerifluxr package demonstration",
+  verbose = TRUE,
+  out_dir = data_dir
+)
+
+filename = "AMF_US-Bar_BASE-BADM_6-5.zip"
+floc = paste0(data_dir, filename)
+```
+
+## read in data
+```{r}
+base <- amf_read_base(file = floc,
+                      unzip = TRUE,
+                      parse_timestamp = TRUE) # if additional time-keeping columns, 
+
+base = base[base$YEAR > 2016, ]
+unique(base$YEAR)
+```
+
+## modify variables
+```{r}
+base$TIMESTAMP=substr(base$TIMESTAMP_START,1,12)
+base$year=as.character(substr(base$TIMESTAMP_START,1,4))
+base$month=as.character(substr(base$TIMESTAMP_START,5,6))
+base$day= as.character(substr(base$TIMESTAMP_START,7,8))
+base$hour=as.numeric(as.character(substr(base$TIMESTAMP_START,9,10)))+ c(0.5,1) 
+base$date=as.Date(with(base, paste(year, month, day, sep="-")), "%Y-%m-%d")
+base$doy=yday(base$date)
+base$min= as.character(substr(base$TIMESTAMP,11,12))
+
+# calculate VPD
+es=0.6108 * exp(17.27 * base$TA_PI_F_1_1_1 / (base$TA_PI_F_1_1_1 + 237.3))
+base$VPD_calculated = ((100 - ifelse(base$RH_PI_F_1_1_1>100,100,base$RH_PI_F_1_1_1)) / 100) * es
+range(base$VPD_calculated, na.rm = T)
+
+base_df = data.frame('Year' = base$year, 'Day' = base$day, 'Hour' = base$hour, 'Date' = base$date,
+                     'Min' = base$min, 'NEE' = base$FC_1_1_1, 'Month' = base$month, 'DoY' = base$doy,
+                     'LE' = base$LE_1_1_1, 'H' = base$H_1_1_1,
+                     'Rg' = ifelse(base$PPFD_IN_PI_F_1_1_1 < 0, 0, PPFD.to.Rg(base$PPFD_IN_PI_F_1_1_1)), 
+                     'Tair' = base$TA_PI_F_1_1_1,
+                     'Tsoil' = base$TS_PI_F_1_2_1, 'rH' = ifelse(base$RH_PI_F_1_1_1 > 100, 100, base$RH_PI_F_1_1_1),
+                     'VPD' = base$VPD_calculated, 'Ustar' = base$USTAR_1_1_1,
+                     'TIMESTAMP_START' = as.character(base$TIMESTAMP_START),
+                     'TIMESTAMP_END' = as.character(base$TIMESTAMP_END), 
+                     'PPFD_f' = base$PPFD_IN_PI_F_1_1_1,
+                     'PPFD_DIF' = base$PPFD_DIF_1_1_1, 
+                     'PPFD_DIR' = base$PPFD_DIR_1_1_1,
+                     'SWC_1' = base$SWC_1_1_1,
+                     'SWC_2' = base$SWC_2_1_1, 
+                     'SWC_3' = base$SWC_3_1_1,
+                     'SWC_4' = base$SWC_4_1_1)
+tail(base_df)
+fwrite(base_df, paste0(output_dir, "data_for_gapfilling_BART_AmeriFlux.csv"))
+```
+

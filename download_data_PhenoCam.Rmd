@@ -1,0 +1,50 @@
+---
+title: "download_PhenoCam"
+output: html_document
+date: "2024-08-08"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# READ ME
+- webpage: https://phenocam.nau.edu/webcam/ 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("RColorBrewer")
+palette <- brewer.pal(8, "Set1")
+
+project_dir <- 'F:/12 Phenology/'
+project_dir = dirname(normalizePath(commandArgs()[1]))
+output_dir <- paste0(project_dir, '/output/')
+source_dir <- paste0(project_dir, '/source/')
+data_dir <- paste0(project_dir, '/data/')
+col_site = c("#67a9cf", "#b2182b")
+```
+
+# Packages
+```{r}
+# install.packages("devtools")
+# devtools::install_github("khufkens/phenor")
+# install.packages("phenocamr")
+# install.packages("maps")
+library("phenocamr"); 
+# library("phenor")
+library("maps"); library("raster")
+library(dplyr)
+library(data.table)
+```
+
+# download GCC time series
+```{r}
+setwd(data_dir)
+phenocamr::download_phenocam(
+  frequency = 3, # 3 day data product
+  veg_type = "DB", # Deciduous Broadleaf
+  roi_id = 1000,
+  site = "bbc7",
+  phenophase = TRUE, # transition data is also downloaded
+  out_dir = "." 
+)
+```
