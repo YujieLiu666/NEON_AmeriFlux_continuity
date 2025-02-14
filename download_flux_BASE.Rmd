@@ -78,11 +78,7 @@ base_df = data.frame('Year' = base$year, 'Day' = base$day, 'Hour' = base$hour, '
                      'TIMESTAMP_END' = as.character(base$TIMESTAMP_END), 
                      'PPFD_f' = base$PPFD_IN_PI_F_1_1_1,
                      'PPFD_DIF' = base$PPFD_DIF_1_1_1, 
-                     'PPFD_DIR' = base$PPFD_DIR_1_1_1,
-                     'SWC_1' = base$SWC_1_1_1,
-                     'SWC_2' = base$SWC_2_1_1, 
-                     'SWC_3' = base$SWC_3_1_1,
-                     'SWC_4' = base$SWC_4_1_1)
+                     'PPFD_DIR' = base$PPFD_DIR_1_1_1)
 tail(base_df)
 fwrite(base_df, paste0(output_dir, "data_for_gapfilling_BART_AmeriFlux.csv"))
 ```
