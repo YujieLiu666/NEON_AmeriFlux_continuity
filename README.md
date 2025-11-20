@@ -4,7 +4,7 @@ A tale of two towers: comparing NEON and AmeriFlux data streams at Bartlett Expe
 
 Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P. Ouimette; Dave Durden; Cove Sturtevant; Ben Lucas; Andrew D. Richardson
 
-🎉 The paper has been accepted for publication in Agricultural and Forest Meteorology.
+🎉 The paper has been accepted for publication in _Agricultural and Forest Meteorology_.
 
 💼 Contact information: yujie.liu@nau.edu
 
