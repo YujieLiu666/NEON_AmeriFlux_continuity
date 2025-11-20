@@ -6,7 +6,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 🎉 The paper has been accepted for publication in Agricultural and Forest Meteorology.
 
-📁 Project Files and Descriptions
+📁 ## Project Files and Descriptions
 
 🟩 01_download_data_PhenoCam.Rmd
 
