@@ -13,28 +13,38 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 🟩 01_download_data_PhenoCam.Rmd
 
-• Downloads PhenoCam data (GCC and transition dates) using the R package `phenocamr`.
+- Downloads PhenoCam data (GCC and transition dates) using the R package `phenocamr`.
 
 📦 02_download_AmeriFlux_BASE.Rmd
 
-• Downloads AmeriFlux BASE data using R package `amerifluxr`.
+- Downloads AmeriFlux BASE data using R package `amerifluxr`.
 
-• Organizes data into the format required for R package `REddyProc`.
+- Organizes data into the format required for R package `REddyProc`.
 
 ⚙️ 03_REddyProc.Rmd
 
-• Performs IQR filtering, u* filtering, and MDS gapfilling.
+- Performs IQR filtering, u* filtering, and MDS gapfilling.
 
-• A comprehensive tutorial for these steps is available here:
-https://github.com/YujieLiu666/Bridginggap-flux. The tutorial has been presented for FLUXNET workshop "Bridging the Gap: Flux Data Meets Land Surface Models" in August 2025: https://fluxnet.org/bridging-the-gap-flux-data-meets-land-surface-models-a-successful-workshop/.
+- A comprehensive tutorial for these steps is available here:  
+[Bridginggap-flux](https://github.com/YujieLiu666/Bridginggap-flux).
+
+- The tutorial was presented at the FLUXNET workshop *"Bridging the Gap: Flux Data Meets Land Surface Models"* in August 2025:  
+[FLUXNET Workshop 2025](https://fluxnet.org/bridging-the-gap-flux-data-meets-land-surface-models-a-successful-workshop/).
+
 
 🤖 04_train_XGBoost.ipynb
 
-• Performs FCO₂ gapfilling using the machine learning model `XGBoost`. A comprehensive tutorial for gap-filling can be found here https://github.com/YujieLiu666/NEON_gapfill_test/. This was presented in a breakout session at AmeriFlux annual meeting 2025: https://ameriflux.lbl.gov/community/ameriflux-meetings-workshops/2025-ameriflux-annual-meeting/2025-breakout-sessions/
+- Performs FCO₂ gapfilling using the machine learning model `XGBoost`.  
+- A beginner-friendly tutorial for gap-filling can be found here:  
+[NEON_gapfill_test](https://github.com/YujieLiu666/NEON_gapfill_test/)
+
+- This was presented in a breakout session at the AmeriFlux Annual Meeting 2025:  
+[AmeriFlux 2025 Breakout Sessions](https://ameriflux.lbl.gov/community/ameriflux-meetings-workshops/2025-ameriflux-annual-meeting/2025-breakout-sessions/)
+
 
 🌊 05_wavelet_FCO2.R
 
-• Conducts wavelet analysis for FCO₂ using the R package `WaveletComp`.
+-  Wavelet analysis for FCO₂ using the R package `WaveletComp`.
 
 
 
