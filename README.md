@@ -26,11 +26,11 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 • Performs IQR filtering, u* filtering, and MDS gapfilling.
 
 • A comprehensive tutorial for these steps is available here:
-https://github.com/YujieLiu666/Bridginggap-flux
+https://github.com/YujieLiu666/Bridginggap-flux. The tutorial has been presented for FLUXNET workshop "Bridging the Gap: Flux Data Meets Land Surface Models" in August 2025: https://fluxnet.org/bridging-the-gap-flux-data-meets-land-surface-models-a-successful-workshop/.
 
 🤖 04_train_XGBoost.ipynb
 
-• Performs FCO₂ gapfilling using the machine learning model `XGBoost`.
+• Performs FCO₂ gapfilling using the machine learning model `XGBoost`. A comprehensive tutorial for gap-filling can be found here https://github.com/YujieLiu666/NEON_gapfill_test/. This was presented in a breakout session at AmeriFlux annual meeting 2025: https://ameriflux.lbl.gov/community/ameriflux-meetings-workshops/2025-ameriflux-annual-meeting/2025-breakout-sessions/
 
 🌊 05_wavelet_FCO2.R
 
