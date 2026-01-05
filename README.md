@@ -1,10 +1,10 @@
 
 📄 Code and data for the paper:
-### A tale of two towers: comparing NEON and AmeriFlux data streams at Bartlett Experimental Forest
+### A tale of two towers: comparing NEON and AmeriFlux data streams at Bartlett Experimental Forest, Agricultural and Forest Meteorology
 
 Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P. Ouimette; Dave Durden; Cove Sturtevant; Ben Lucas; Andrew D. Richardson
 
-🎉 The paper has been accepted for publication in _Agricultural and Forest Meteorology_.
+🎉 [Agricultural and Forest Meteorology](https://doi.org/10.1016/j.agrformet.2025.110939)
 
 💼 Contact information: yujie.liu@nau.edu
 
