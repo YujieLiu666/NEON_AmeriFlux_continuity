@@ -35,7 +35,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 🤖 04_train_XGBoost.ipynb
 
 - Performs FCO₂ gapfilling using the machine learning model `XGBoost`.  
-- A beginner-friendly tutorial for gap-filling can be found here:  
+- A beginner-friendly tutorial for gap-filling using XGBoost can be found here:  
 [NEON_gapfill_test](https://github.com/YujieLiu666/NEON_gapfill_test/)
 
 - This was presented in a breakout session at the AmeriFlux Annual Meeting 2025:  
