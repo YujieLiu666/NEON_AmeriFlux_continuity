@@ -9,6 +9,10 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 💼 Contact information: yujie.liu@nau.edu
 
 ---
+### Tutorials 
+Flux data postprocessing using REddyProc
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YujieLiu666/Bridginggap-flux/main?urlpath=rstudio&reset=1&fake=129)
+
 ### Project Files and Descriptions
 
 🟩 01_download_data_PhenoCam.Rmd
