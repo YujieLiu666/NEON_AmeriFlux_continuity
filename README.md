@@ -8,15 +8,6 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 💼 Contact information: yujie.liu@nau.edu
 
-# NEON_AmeriFlux_continuity
-
-📄 Code and data for the paper:
-
-### A tale of two towers: comparing NEON and AmeriFlux data streams at Bartlett Experimental Forest
-
-**Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P. Ouimette; Dave Durden; Cove Sturtevant; Ben Lucas; Andrew D. Richardson**
-
-🎉 [Agricultural and Forest Meteorology](https://doi.org/10.1016/j.agrformnau.edu
 
 ---
 
