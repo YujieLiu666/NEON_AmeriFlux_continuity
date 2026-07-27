@@ -9,45 +9,65 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 💼 Contact information: yujie.liu@nau.edu
 
 ---
-### Tutorials 
+
+## Repository Structure
+
+```text
+.
+├── raw_data_BART/
+│   ├── AmeriFlux and NEON source datasets
+│   ├── Processed daily flux products
+│   └── Disturbance transition date files
+│
+├── scripts/
+│   ├── 01_download_data_PhenoCam.Rmd
+│   ├── 02_download_AmeriFlux_BASE.Rmd
+│   ├── 03_REddyProc.html
+│   ├── 04_download_NEON_Bundled_EC.html
+│   └── 06_wavelet_analysis.R
+│
+├── utils/
+│   └── Utility functions and helper scripts
+│
+└── README.md
+
+
+## Tutorials 
 - Flux data postprocessing using REddyProc
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YujieLiu666/Bridginggap-flux/main?urlpath=rstudio&reset=1&fake=129)
 
 - Flux data gapfilling using XGBoost
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YujieLiu666/NEON_gapfill_test/blob/main/workflow_XGB_google_colab.ipynb)
 
-### Project Files and Descriptions
 
-🟩 01_download_data_PhenoCam.Rmd
+## Folders
 
-- Downloads PhenoCam data (GCC and transition dates) using the R package `phenocamr`.
+| Folder | Description |
+|----------|-------------|
+| `raw_data_BART/` | Raw and processed datasets used in this study, including AmeriFlux, NEON, and disturbance transition date products. |
+| `scripts/` | Data download, preprocessing, quality control, and wavelet analysis workflows. |
+| `utils/` | Supporting functions, helper scripts, and reusable utilities used throughout the project. |
 
-📦 02_download_AmeriFlux_BASE.Rmd
+## Scripts
 
-- Downloads AmeriFlux BASE data using R package `amerifluxr`.
+| Script | Description |
+|----------|-------------|
+| `01_download_data_PhenoCam.Rmd` | Downloads PhenoCam vegetation indices and phenological transition dates. |
+| `02_download_AmeriFlux_BASE.Rmd` | Downloads and formats AmeriFlux BASE data. |
+| `03_REddyProc.html` | Flux data post processing: Flux quality control, u* filtering, and gap-filling with REddyProc. |
+| `04_download_NEON_Bundled_EC.html` | Downloads and organizes NEON bundled eddy covariance products. |
+| `06_wavelet_analysis.R` | Wavelet analysis of ecosystem carbon fluxes using WaveletComp. |
 
-- Organizes data into the format required for R package `REddyProc`.
+## Raw Data Files
 
-⚙️ 03_REddyProc.Rmd
-
-- Performs IQR filtering, u* filtering, and MDS gapfilling.
-
-🤖 04_train_XGBoost.ipynb
-
-- Performs FCO₂ gapfilling using the machine learning model `XGBoost`.  
-- A beginner-friendly tutorial for gap-filling using XGBoost can be found here:  
-[NEON_gapfill_test](https://github.com/YujieLiu666/NEON_gapfill_test/)
-
-- This was presented in a breakout session at the AmeriFlux Annual Meeting 2025:  
-[AmeriFlux 2025 Breakout Sessions](https://ameriflux.lbl.gov/community/ameriflux-meetings-workshops/2025-ameriflux-annual-meeting/2025-breakout-sessions/)
-
-
-🌊 05_wavelet_FCO2.R
-
--  Wavelet analysis for FCO₂ using the R package `WaveletComp`.
-
-
-
-
-
+| File | Description |
+|----------|-------------|
+| `AMF_US-Bar_BASE-BADM_6-5.zip` | AmeriFlux BASE: US-Bar. |
+| `AMF_US-xBR_BASE-BADM_9-5.zip` | AmeriFlux BASE: US-xBR. |
+| `NEON.D01.BART.DP1.00033_DB_1000_1day.csv` |  PhenoCam data: GCC. |
+| `NEON.D01.BART.DP1.00033_DB_1000_1day_transition_dates.csv` | PhenoCam data: transition dates. |
+| `bartlettir_DB_1000_1day.csv` | PhenoCam data: GCC. |
+| `bartlettir_DB_1000_1day_transition_dates.csv` | PhenoCam data: transition dates. |
+| `bbc7_DB_1000_1day.csv` | PhenoCam data: GCC. |
+| `bbc7_DB_1000_1day_transition_dates.csv` | PhenoCam data: transition. |
 
