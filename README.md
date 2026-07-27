@@ -39,21 +39,12 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 ---
 
-## Tutorials
+## Tutorials 
+- Flux data postprocessing using REddyProc
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YujieLiu666/Bridginggap-flux/main?urlpath=rstudio&reset=1&fake=129)
 
-
-### Flux data postprocessing using REddyProc
-
-[![Binderybinder.org/badge_logo.svg](
-https://mybinder.org/v2/gh/YujieLiu666/Bridginggap-flux/main?urlpath=rstudio&reset=1
-)
-
-### Flux data gap-filling using XGBoost
-
-[![Open In Colab](https://colab.m/assets/colab-badge.svg](
-https://colab.research.google.com/github/YujieLiu666/NEON_gapfill_test/blob/main/workflow_XGB_google_colab.ipynb
-)
-
+- Flux data gapfilling using XGBoost
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YujieLiu666/NEON_gapfill_test/blob/main/workflow_XGB_google_colab.ipynb)
 ---
 
 ## Folders
