@@ -92,7 +92,8 @@ https://colab.research.google.com/assets/colab-badge.svg](https://colab.research
 2. Download AmeriFlux BASE data.
 3. Download NEON eddy covariance products.
 4. Process flux observations with REddyProc.
-5. Analyze ecosystem carbon flux dynamics using wavelet methods.
+5. Gapfill flux data using XGBoost. 
+6. Analyze ecosystem carbon flux dynamics using wavelet methods.
 
 ---
 
