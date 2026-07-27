@@ -8,7 +8,6 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 💼 Contact information: yujie.liu@nau.edu
 
-
 ---
 
 ## Repository Structure
