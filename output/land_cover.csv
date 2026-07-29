@@ -1,0 +1,153 @@
+Class,reclass,n,percentage,NEONID_network
+Sedge/Herbaceous,"Grass, sedge and forbs",1685,91.3,BARR_AmeriFlux
+Emergent Herbaceous Wetlands,Agriculture,160,8.7,BARR_AmeriFlux
+Open Water,Open Water,15,0.8,BARR_NEON
+Sedge/Herbaceous,"Grass, sedge and forbs",1686,91.4,BARR_NEON
+Emergent Herbaceous Wetlands,Agriculture,144,7.8,BARR_NEON
+Deciduous Forest,Deciduous Forest,881,43.2,BART_AmeriFlux
+Mixed Forest,Evergreen forest,831,40.7,BART_AmeriFlux
+"Developed, Open Space",Developed,161,7.9,BART_AmeriFlux
+Grassland/Herbaceous,"Grass, sedge and forbs",90,4.4,BART_AmeriFlux
+Evergreen Forest,Evergreen forest,57,2.8,BART_AmeriFlux
+"Developed, Low Intensity",Developed,10,0.5,BART_AmeriFlux
+"Developed, Medium Intensity",Developed,10,0.5,BART_AmeriFlux
+Mixed Forest,Evergreen Forest,21446,41.7,BART_NEON
+Deciduous Forest,Deciduous Forest,14556,28.3,BART_NEON
+Evergreen Forest,Evergreen Forest,7541,14.7,BART_NEON
+"Developed, Open Space",Developed,2331,4.5,BART_NEON
+Woody Wetlands,Agriculture,1323,2.6,BART_NEON
+"Developed, Low Intensity",Developed,1062,2.1,BART_NEON
+Grassland/Herbaceous,"Grass, sedge and forbs",745,1.4,BART_NEON
+Pasture/Hay,Agriculture,596,1.2,BART_NEON
+Shrub/Scrub,Woody shurbs,579,1.1,BART_NEON
+"Developed, Medium Intensity",Developed,486,0.9,BART_NEON
+Emergent Herbaceous Wetlands,Agriculture,360,0.7,BART_NEON
+Barren Land (Rock/Sand/Clay),Developed,269,0.5,BART_NEON
+Open Water,Open Water,112,0.2,BART_NEON
+Developed High Intensity,Developed,50,0.1,BART_NEON
+"Developed, Open Space",Developed,42,4.8,BONA_AmeriFlux
+"Developed, Low Intensity",Developed,67,7.7,BONA_AmeriFlux
+Barren Land,Developed,10,1.1,BONA_AmeriFlux
+Deciduous Forest,Deciduous Forest,40,4.6,BONA_AmeriFlux
+Evergreen Forest,Evergreen Forest,147,16.9,BONA_AmeriFlux
+Mixed Forest,Evergreen Forest,48,5.5,BONA_AmeriFlux
+Woody Wetlands,Agriculture,517,59.4,BONA_AmeriFlux
+Deciduous Forest,Deciduous Forest,640,26.6,BONA_NEON
+Evergreen Forest,Evergreen Forest,820,34.1,BONA_NEON
+Mixed Forest,Evergreen Forest,149,6.2,BONA_NEON
+Shrub/Scrub,Woody shurbs,79,3.3,BONA_NEON
+Woody Wetlands,Agriculture,720,29.9,BONA_NEON
+Mixed Forest,Evergreen Forest,858,42.1,HARV_AmeriFlux
+Deciduous Forest,Deciduous Forest,484,23.7,HARV_AmeriFlux
+Woody Wetlands,Agriculture,343,16.8,HARV_AmeriFlux
+Evergreen Forest,Evergreen Forest,201,9.9,HARV_AmeriFlux
+Grassland/Herbaceous,"grass, sedge and forbs",143,7.0,HARV_AmeriFlux
+Emergent Herbaceous Wetlands,Agriculture,10,0.5,HARV_AmeriFlux
+Open Water,Open Water,1,0.0,HARV_AmeriFlux
+Mixed Forest,Evergreen forest,2106,37.0,HARV_NEON
+Deciduous Forest,Deciduous Forest,1608,28.2,HARV_NEON
+Woody Wetlands,Agriculture,1047,18.4,HARV_NEON
+Evergreen Forest,Evergreen forest,596,10.5,HARV_NEON
+Grassland/Herbaceous,"grass, sedge and forbs",242,4.2,HARV_NEON
+Shrub/Scrub,Woody shurbs,33,0.6,HARV_NEON
+Emergent Herbaceous Wetlands,Agriculture,24,0.4,HARV_NEON
+"Developed, Open Space",Developed,19,0.3,HARV_NEON
+Pasture/Hay,Agriculture,15,0.3,HARV_NEON
+"Developed, Low Intensity",Developed,4,0.1,HARV_NEON
+Open Water,Open Water,1,0.0,HARV_NEON
+Open Water,Open Water,162,6.4,HEAL_AmeriFlux
+"Developed, Low Intensity",Developed,80,3.2,HEAL_AmeriFlux
+Barren Land,Developed,43,1.7,HEAL_AmeriFlux
+Evergreen Forest,Evergreen forest,181,7.2,HEAL_AmeriFlux
+Dwarf Shrub,Woody shurbs,771,30.5,HEAL_AmeriFlux
+Shrub/Scrub,Woody shurbs,1289,51.0,HEAL_AmeriFlux
+"Developed, Low Intensity",Developed,14,1.5,HEAL_NEON
+Dwarf Shrub,Woody shurbs,333,36.6,HEAL_NEON
+Shrub/Scrub,Woody shurbs,561,61.7,HEAL_NEON
+Grassland/Herbaceous,"Grass, sedge and forbs",1,0.1,HEAL_NEON
+Grassland/Herbaceous,"Grass, sedge and forbs",3381,58.7,JORN_AmeriFlux
+Shrub/Scrub,Woody shurbs,2373,41.2,JORN_AmeriFlux
+Barren Land (Rock/Sand/Clay),Developed,8,0.1,JORN_AmeriFlux
+Shrub/Scrub,Woody shurbs,1795,88.0,JORN_NEON
+Grassland/Herbaceous,"grass, sedge and forbs",245,12.0,JORN_NEON
+Grassland/Herbaceous,"grass, sedge and forbs",2032,99.6,KONZ_AmeriFlux
+Deciduous Forest,Deciduous Forest,8,0.4,KONZ_AmeriFlux
+Grassland/Herbaceous,,1959,96.0,KONZ_NEON
+Deciduous Forest,,81,4.0,KONZ_NEON
+Grassland/Herbaceous,"grass, sedge and forbs",858,42.1,NIWO_AmeriFlux
+Shrub/Scrub,Woody shurbs,811,39.8,NIWO_AmeriFlux
+Evergreen Forest,Evergreen forest,252,12.4,NIWO_AmeriFlux
+Perennial Ice/Snow,Perennial Ice/Snow,119,5.8,NIWO_AmeriFlux
+Grassland/Herbaceous,"grass, sedge and forbs",958,45.8,NIWO_NEON
+Shrub/Scrub,Woody shurbs,954,45.6,NIWO_NEON
+Perennial Ice/Snow,Perennial Ice/Snow,158,7.6,NIWO_NEON
+Evergreen Forest,Evergreen forest,21,1.0,NIWO_NEON
+Evergreen Forest,Evergreen forest,3851,66.8,OSBS_AmeriFlux
+Woody Wetlands,Woody shurbs,590,10.2,OSBS_AmeriFlux
+Grassland/Herbaceous,"Grass, sedge and forbs",483,8.4,OSBS_AmeriFlux
+Pasture/Hay,Agriculture,408,7.1,OSBS_AmeriFlux
+Shrub/Scrub,Woody shurbs,370,6.4,OSBS_AmeriFlux
+"Developed, Low Intensity",Developed,30,0.5,OSBS_AmeriFlux
+"Developed, Open Space",Developed,22,0.4,OSBS_AmeriFlux
+Open Water,Open Water,7,0.1,OSBS_AmeriFlux
+"Developed, Medium Intensity",Developed,1,0.0,OSBS_AmeriFlux
+Evergreen Forest,Evergreen forest,2671,46.9,OSBS_NEON
+Shrub/Scrub,Woody shurbs,2097,36.8,OSBS_NEON
+"Developed, Open Space",Developed,396,7.0,OSBS_NEON
+Pasture/Hay,Agriculture,357,6.3,OSBS_NEON
+Open Water,Open Water,49,0.9,OSBS_NEON
+Grassland/Herbaceous,"grass, sedge and forbs",28,0.5,OSBS_NEON
+"Developed, Low Intensity",Developed,27,0.5,OSBS_NEON
+Emergent Herbaceous Wetlands,Agriculture,23,0.4,OSBS_NEON
+Woody Wetlands,Agriculture,21,0.4,OSBS_NEON
+Deciduous Forest,Deciduous Forest,14,0.2,OSBS_NEON
+"Developed, Medium Intensity",Developed,11,0.2,OSBS_NEON
+Mixed Forest,Evergreen forest,1,0.0,OSBS_NEON
+Evergreen Forest,Evergreen forest,3525,96.0,RMNP_AmeriFlux
+Deciduous Forest,Deciduous Forest,86,2.3,RMNP_AmeriFlux
+Woody Wetlands,Woody shurbs,31,0.8,RMNP_AmeriFlux
+Shrub/Scrub,Woody shurbs,29,0.8,RMNP_AmeriFlux
+"Developed, Open Space",Developed,1,0.0,RMNP_AmeriFlux
+Evergreen Forest,Evergreen forest,160394,78.0,RMNP_NEON
+Shrub/Scrub,Woody shurbs,20308,9.9,RMNP_NEON
+Barren Land (Rock/Sand/Clay),Developed,7659,3.7,RMNP_NEON
+Grassland/Herbaceous,"grass, sedge and forbs",7605,3.7,RMNP_NEON
+"Developed, Open Space",Developed,3185,1.5,RMNP_NEON
+Deciduous Forest,Deciduous Forest,2231,1.1,RMNP_NEON
+Woody Wetlands,Woody shurbs,1965,1.0,RMNP_NEON
+"Developed, Low Intensity",Developed,680,0.3,RMNP_NEON
+Perennial Ice/Snow,Perennial Ice/Snow,537,0.3,RMNP_NEON
+Emergent Herbaceous Wetlands,Agriculture,534,0.3,RMNP_NEON
+Open Water,Open Water,217,0.1,RMNP_NEON
+Mixed Forest,Evergreen forest,202,0.1,RMNP_NEON
+"Developed, Medium Intensity",Developed,191,0.1,RMNP_NEON
+Developed High Intensity,Developed,5,0.0,RMNP_NEON
+Shrub/Scrub,Woody shurbs,1994,97.7,SRER_AmeriFlux
+"Developed, Open Space",Developed,36,1.8,SRER_AmeriFlux
+"Developed, Low Intensity",Developed,8,0.4,SRER_AmeriFlux
+"Developed, Medium Intensity",Developed,2,0.1,SRER_AmeriFlux
+Shrub/Scrub,Woody shurbs,2040,100.0,SRER_NEON
+Deciduous Forest,Deciduous Forest,53248,25.9,UNDE_AmeriFlux
+Woody Wetlands,Woody shurbs,50151,24.4,UNDE_AmeriFlux
+Mixed Forest,Evergreen forest,36833,17.9,UNDE_AmeriFlux
+Open Water,Open Water,32110,15.6,UNDE_AmeriFlux
+Evergreen Forest,Evergreen forest,19900,9.7,UNDE_AmeriFlux
+"Developed, Open Space",Developed,7648,3.7,UNDE_AmeriFlux
+Emergent Herbaceous Wetlands,Agriculture,3210,1.6,UNDE_AmeriFlux
+Grassland/Herbaceous,"grass, sedge and forbs",1003,0.5,UNDE_AmeriFlux
+"Developed, Low Intensity",Developed,927,0.5,UNDE_AmeriFlux
+Shrub/Scrub,Woody shurbs,530,0.3,UNDE_AmeriFlux
+"Developed, Medium Intensity",Developed,150,0.1,UNDE_AmeriFlux
+Barren Land (Rock/Sand/Clay),Developed,63,0.0,UNDE_AmeriFlux
+Pasture/Hay,Agriculture,26,0.0,UNDE_AmeriFlux
+Developed High Intensity,Developed,25,0.0,UNDE_AmeriFlux
+Woody Wetlands,Agriculture,3292,57.8,UNDE_NEON
+Deciduous Forest,Deciduous Forest,1454,25.5,UNDE_NEON
+"Developed, Open Space",Developed,432,7.6,UNDE_NEON
+Open Water,Open Water,281,4.9,UNDE_NEON
+Mixed Forest,Evergreen forest,152,2.7,UNDE_NEON
+Emergent Herbaceous Wetlands,Agriculture,60,1.1,UNDE_NEON
+Grassland/Herbaceous,"grass, sedge and forbs",17,0.3,UNDE_NEON
+"Developed, Low Intensity",Developed,3,0.1,UNDE_NEON
+"Developed, Medium Intensity",Developed,2,0.0,UNDE_NEON
+Evergreen Forest,Evergreen forest,2,0.0,UNDE_NEON
