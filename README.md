@@ -63,7 +63,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 |----------|-------------|
 | `01_download_data_PhenoCam.Rmd` | Downloads PhenoCam vegetation indices (GCC) and phenological transition dates using the `phenocamr` package. |
 | `02_download_AmeriFlux_BASE.Rmd` | Downloads AmeriFlux BASE data and prepares files for downstream processing. |
-| `03_REddyProc.html` | Flux post-processing including quality control, u★ filtering, and MDS gap-filling using REddyProc. |
+| `03_REddyProc.html` | Flux post-processing including quality control, u* filtering, and MDS gap-filling using `REddyProc` package. |
 | `04_download_NEON_Bundled_EC.html` | Downloads and organizes NEON bundled eddy covariance products. |
 | `06_wavelet_analysis.R` | Performs wavelet analysis of ecosystem carbon fluxes using the `WaveletComp` package. |
 
