@@ -89,7 +89,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 1. Download PhenoCam data.
 2. Download AmeriFlux BASE data.
 3. Download NEON eddy covariance products.
-4. Process flux observations with REddyProc.
+4. Process flux data with REddyProc.
 5. Gapfill flux data using XGBoost. 
 6. Analyze ecosystem carbon flux dynamics using wavelet methods.
 
