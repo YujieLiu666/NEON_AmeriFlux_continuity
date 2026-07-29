@@ -89,7 +89,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 1. Download PhenoCam data.
 2. Download AmeriFlux BASE data.
 3. Download NEON eddy covariance products.
-4. Process flux observations with REddyProc.
+4. Process flux data with REddyProc.
 5. Gapfill flux data using XGBoost. 
 6. Analyze ecosystem carbon flux dynamics using wavelet methods.
 
@@ -99,4 +99,4 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 If you use this repository, please cite:
 
-> Liu, Y., Stoy, P., Chu, H., Hollinger, D. Y., Ollinger, S. V., Ouimette, A. P., Durden, D., Sturtevant, C., Lucas, B., & Richardson, A. D. (2025). *A tale of two towers: comparing NEON and AmeriFlux data streams at Bartlett Experimental Forest*. Agricultural and Forest Meteorology, 110939.
+> Liu, Y., Stoy, P., Chu, H., Hollinger, D. Y., Ollinger, S. V., Ouimette, A. P., Durden, D., Sturtevant, C., Lucas, B., & Richardson, A. D. (2025). *A tale of two towers: comparing NEON and AmeriFlux data streams at Bartlett Experimental Forest*. Agricultural and Forest Meteorology, [110939](https://doi.org/10.1016/j.agrformet.2025.110939).
