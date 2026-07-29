@@ -51,7 +51,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 | Folder | Description |
 |----------|-------------|
-| `raw_data/BART/` | Raw and processed datasets used in this study, including AmeriFlux, NEON, and phenological transition date products. |
+| `raw_data/` | Raw and processed datasets used in this study, including AmeriFlux, NEON, and phenological transition date products. |
 | `scripts/` | Data download, preprocessing, quality control, flux processing, and wavelet analysis workflows. |
 | `utils/` | Supporting functions, helper scripts, and reusable utilities used throughout the project. |
 
