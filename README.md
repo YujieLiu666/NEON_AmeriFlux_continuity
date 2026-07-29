@@ -99,4 +99,4 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 If you use this repository, please cite:
 
-> Liu, Y., Stoy, P., Chu, H., Hollinger, D. Y., Ollinger, S. V., Ouimette, A. P., Durden, D., Sturtevant, C., Lucas, B., & Richardson, A. D. (2025). *A tale of two towers: comparing NEON and AmeriFlux data streams at Bartlett Experimental Forest*. Agricultural and Forest Meteorology, 110939.
+> Liu, Y., Stoy, P., Chu, H., Hollinger, D. Y., Ollinger, S. V., Ouimette, A. P., Durden, D., Sturtevant, C., Lucas, B., & Richardson, A. D. (2025). *A tale of two towers: comparing NEON and AmeriFlux data streams at Bartlett Experimental Forest*. Agricultural and Forest Meteorology, [110939](https://doi.org/10.1016/j.agrformet.2025.110939).
