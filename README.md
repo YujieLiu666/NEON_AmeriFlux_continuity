@@ -14,7 +14,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 ```text
 .
-├── raw_data_BART/
+├── raw_data/BART/
 │   ├── AMF_US-Bar_BASE-BADM_6-5.zip
 │   ├── AMF_US-xBR_BASE-BADM_9-5.zip
 │   ├── NEON.D01.BART.DP1.00033_DB_1000_1day.csv
