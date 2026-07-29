@@ -14,7 +14,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 ```text
 .
-├── raw_data_BART/
+├── raw_data/BART/
 │   ├── AMF_US-Bar_BASE-BADM_6-5.zip
 │   ├── AMF_US-xBR_BASE-BADM_9-5.zip
 │   ├── NEON.D01.BART.DP1.00033_DB_1000_1day.csv
@@ -51,7 +51,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 
 | Folder | Description |
 |----------|-------------|
-| `raw_data_BART/` | Raw and processed datasets used in this study, including AmeriFlux, NEON, and phenological transition date products. |
+| `raw_data/BART/` | Raw and processed datasets used in this study, including AmeriFlux, NEON, and phenological transition date products. |
 | `scripts/` | Data download, preprocessing, quality control, flux processing, and wavelet analysis workflows. |
 | `utils/` | Supporting functions, helper scripts, and reusable utilities used throughout the project. |
 
@@ -63,7 +63,7 @@ Yujie Liu; Paul Stoy; Housen Chu; Dave Y. Hollinger; Scott V. Ollinger; Andrew P
 |----------|-------------|
 | `01_download_data_PhenoCam.Rmd` | Downloads PhenoCam vegetation indices (GCC) and phenological transition dates using the `phenocamr` package. |
 | `02_download_AmeriFlux_BASE.Rmd` | Downloads AmeriFlux BASE data and prepares files for downstream processing. |
-| `03_REddyProc.html` | Flux post-processing including quality control, u★ filtering, and MDS gap-filling using REddyProc. |
+| `03_REddyProc.html` | Flux post-processing including quality control, u* filtering, and MDS gap-filling using `REddyProc` package. |
 | `04_download_NEON_Bundled_EC.html` | Downloads and organizes NEON bundled eddy covariance products. |
 | `06_wavelet_analysis.R` | Performs wavelet analysis of ecosystem carbon fluxes using the `WaveletComp` package. |
 
